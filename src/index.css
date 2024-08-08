@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+:root {
+  --light-ash: rgb(58, 59, 68);
+  --orange-btn: rgb(242, 114, 110);
+}
+body {
+  width: 100%;
+  height: fit-content;
+}
+@font-face {
+  font-family: "Rubik-light";
+  src: url(/src/assets/Rubik/static/Rubik-Light.ttf);
+}
+@font-face {
+  font-family: "Rubik-regular";
+  src: url(/src/assets/Rubik/static/Rubik-Regular.ttf);
+}
+@font-face {
+  font-family: "Rubik-medium";
+  src: url(/src/assets/Rubik/static/Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: "Rubik-bold";
+  src: url(/src/assets/Rubik/static/Rubik-Bold.ttf);
+}
+/** Adjust width for diffrent sizes */
+/*
+@media (max-width: 850px) {
+  body {
+    padding: 1.5rem 3.8rem 0 3.8rem;
+  }
+}
+@media (max-width: 750px) {
+  body {
+    padding: 1.5rem 3.2rem 0 3.2rem;
+  }
+}
+@media (max-width: 650px) {
+  body {
+    padding: 1.4rem 2.8rem 0 2.8rem;
+  }
+}
+@meida (max-width: 350px) {
+  body {
+  padding: 1.4rem 2rem 0 2rem;
+  }
+}
+*/

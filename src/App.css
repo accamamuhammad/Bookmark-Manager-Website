@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.logo > img {
+  width: 35px;
+}
+.logo > p {
+  text-transform: uppercase;
+  font-family: "Rubik-regular";
+  margin-bottom: 3px;
+}
